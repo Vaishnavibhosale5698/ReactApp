@@ -1,0 +1,36 @@
+.editNoteContainer{
+    margin-top: 30px;
+    margin-left: 25%;
+    width : 50%;
+    // height: 20vh; 
+    min-height: 20vh;
+    // padding: 1%;
+    padding-bottom: 3%;
+    // background-color: rgba(235, 230, 230, 0.863);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+     opacity: 0.7;
+    border-top: 2px solid #9E9E9E ;
+    box-shadow: 1px 3px 6px #9E9E9E ;  
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-around; 
+    // flex-direction: row; 
+}
+
+.title{
+    background-color: red;
+}
+
+::placeholder {
+    // color: black;
+    // font-size: 16px;
+    // font-weight: 600;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    letter-spacing: .00625em;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
